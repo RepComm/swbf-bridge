@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "auth.schema.json",
+
+  "title": "swbf-bridge auth.json",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "token": {
+      "description": "Discord bot token as retrieved from discord dev portal",
+      "type": "string"
+    }
+  },
+  "required": [ "token" ]
+}
